@@ -4,7 +4,7 @@ const app: Application = express();
 const LISTEN_PORT: number = 3000;
 
 app.get('/', function(req: Request, res: Response) {
-    res.send('Servidor funciondo');
+    res.send('Servidor funcionando');
 });
 app.post('/dato',(req: Request, res: Response) => {
     console.log(req);

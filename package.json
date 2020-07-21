@@ -11,5 +11,8 @@
     "@types/node": "^14.0.24",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "ts-node src/main.ts"
   }
 }
